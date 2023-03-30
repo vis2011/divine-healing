@@ -1,0 +1,156 @@
+.body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.heading {
+    font-size: 50px;
+    text-decoration: none;
+    color: #ff8400;
+    font-family: 'League Spartan', sans-serif;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right,.left{
+width: 50%;
+height: 110vh;
+}
+
+.right{
+    justify-content: center;
+    align-items: center;
+    padding: 3vh;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid white;
+background-image: linear-gradient(to left top, #ff8500, #ff9317, #ff9f28, #ffab38, #ffb747, #ffba4e, #ffbc55, #ffbf5c, #feb95c, #feb45d, #fcae5e, #fba95f);
+}
+
+
+.left{
+background-image: linear-gradient(to left top, #00ffdd, #48ffe7, #6afff0, #86fff6, #9ffffb, #a3fffc, #a6fefc, #aafefd, #9afdfb, #88fdf8, #75fcf5, #5ffbf1);
+}
+
+.logo{
+    margin-top: 35%;
+}
+
+.sph{
+font-family: 'Poppins', sans-serif;
+    font-size: 7vh;
+    margin-top: -15%;
+    color: white;
+}
+
+input{
+    margin-left: 30%;
+    width: 60%;
+    height: 7%;
+    font-size: 7vh;
+font-family: 'Poppins', sans-serif;
+font-weight: 900;
+background-color: #FFDA9F;
+border: none;
+outline: none;
+border-radius: 4px;
+padding-left: 1vh;
+color: #ffa94e;
+}
+
+input::placeholder{
+    color: #ffa94e;
+    font-size: 2vh;
+}
+
+input:hover{
+    box-shadow:
+            0 0 .5rem #FFDA9F,
+            0 0 .15rem #FFDA9F;
+}
+
+label{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3vh;
+    color: white;
+    margin-top: 5%;
+}
+
+
+.regbutton{
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    padding: 2vh;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: -15%;
+    margin-top: 5%;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.regbutton:hover{
+    box-shadow: 
+    0 0 .5rem white ,
+    0 0 .15rem white;
+}
+
+.r2h{
+    color: black;
+    text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+    position: absolute;
+    margin-top: 46%;
+    margin-left: -44%;
+    background-color: white;
+    border-radius: 1vh;
+    padding: 2vh;
+        position: fixed;
+}
+
+.r2h:hover {
+    box-shadow:
+        0 0 .5rem white,
+        0 0 .15rem white;
+}
+
+
+.shp-1{
+    position: absolute;
+    width: 18%;
+    margin-right: -60vh;
+    padding: none;
+    margin-top: 35vh;
+        position: fixed;
+}
+
+.shp-2 {
+    position: absolute;
+    width: 14%;
+    margin-right: -30vh;
+    padding: none;
+    margin-top: 70vh;
+        position: fixed;
+}
+
+.shp-3 {
+    position: absolute;
+    width: 20%;
+    margin-right: -85vh;
+    padding: none;
+    margin-top: 75vh;
+        position: fixed;
+}
